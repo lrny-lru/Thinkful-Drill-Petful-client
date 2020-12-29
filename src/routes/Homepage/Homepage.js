@@ -6,25 +6,23 @@ export default class Hompage extends Component {
     return (
       <div className="Homepage">
         <div className="page-container">
-          <h1 className="welcome">Welcome to Petful Adoption Service</h1>
+          <h1 className="welcome">Welcome!</h1>
           <div className="process-container">
-            <h2>How the Process Works:</h2>
-            <p>
-              In order to adopt one of our adorable pets your name must be added
-              to the list of those looking to adopt. Please keep in mind, while
-              you can view all our furry friends, only those up for immediate
-              adoption will be available. We are a fair Adoption service that
-              believe all pets should be given the chance for a loving home
+            <section id="yellow">
+              <h2>What you need to know:</h2>
+              <p>
+                In order to adopt one of our friends, you should add your name to the list of those looking to adopt. Please keep in mind, while you can view all our furry friends, only those up for immediate adoption will be available. We are a fair Adoption service that  believe all pets should be given the chance for a loving home
             </p>
-            <h3>
-              Interested in bringing home a new family member? 
+              <h3>
+                Ready to adopt?
               <br />
               Click{' '}
-              <Link className="adopt" to="/adoption">
-                Adopt
+                <Link className="adopt" to="/adoption">
+                  here
               </Link>{' '}
               to begin the process!
             </h3>
+            </section>
           </div>
         </div>
       </div>

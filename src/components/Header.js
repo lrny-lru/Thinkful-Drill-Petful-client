@@ -9,8 +9,8 @@ export default class Header extends Component {
           <Link to="/">Petful</Link>
         </h1>
         <nav>
-          <Link to="/adoption" className="adopt-link">
-            Adopt
+          <Link to="/" className="home-page">
+            Home
           </Link>
         </nav>
       </div>
